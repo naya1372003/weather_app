@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+   
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+background:rgba(255, 255, 255, 0.2) ;
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+padding: 40px 30px;
+border-radius: 20px;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+width: 350px;
+text-align: center;
+color: #333;
+}
+h1{
+font-size: 24px;
+margin-bottom: 25px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0,8);
+}
+input{
+    width: 100%;
+    padding: 12px;
+    background: #f7f981;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    text-align: center;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background: #f7f981;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+button:hover{
+    background: #d1e13f;
+    transform:translateY(-2px);
+}
+#weatherResult{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.8;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.forecast-container{
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+gap: 10px;
+flex-wrap: wrap;
+}
+.forecast-card{
+    background:rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    min-width: 70px;
+    color: #333;
+}
+.forecast-card p{
+    font-size: 14px;
+    margin: 5px 0;
+}
+.clear-btn {
+    background: #f7f981;
+    color: #333;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.clear-btn:hover {
+    background: #d1e13f;
+}
+
